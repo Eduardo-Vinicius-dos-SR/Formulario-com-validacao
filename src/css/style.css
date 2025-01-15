@@ -74,6 +74,16 @@ body {
   color: #a8a8a8;
 }
 
+.requirements .field input[type="number"]::-webkit-outer-spin-button,
+.requirements .field input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.requirements .field input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 .requirements .field p {
   display: none;
   padding-bottom: 6px;
