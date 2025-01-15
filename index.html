@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Formulário com Validação</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <article class="article">
+        <h1 class="art-title">
+          FICOU COM DÚVIDA?<br />
+          NOS MANDE UMA MENSAGEM!
+        </h1>
+        <p class="art-text">
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </article>
+      <section class="form">
+        <ul class="requirements">
+          <li class="field">
+            <input type="text" placeholder="Nome completo *" />
+            <p>campo obrigatório</p>
+          </li>
+          <li class="field">
+            <input type="text" placeholder="Email *" />
+            <p>campo obrigatório</p>
+          </li>
+          <li class="field">
+            <input type="text" placeholder="Telefone *" />
+            <p>campo obrigatório</p>
+          </li>
+          <li class="field">
+            <textarea name="message" placeholder="Mensagem *"></textarea>
+            <p>campo obrigatório</p>
+          </li>
+          <li><p class="notice">*campos obrigatórios</p></li>
+
+          <li><input type="submit" value="Enviar" class="btn-send" /></li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="./src/js/form.js"></script>
+  </body>
+</html>

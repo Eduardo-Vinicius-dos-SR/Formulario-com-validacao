@@ -1,0 +1,116 @@
+@media (min-width: 1850px) {
+    .article {
+      width: 500px;
+    }
+  
+    .article .art-title {
+      padding-bottom: 16px;
+      font-size: 3.3rem;
+    }
+  
+    .article .art-text {
+      font-size: 2.5rem;
+    }
+  
+    .form {
+      width: 584px;
+    }
+  
+    .requirements {
+      padding: 33px 33px 35px 25px;
+    }
+  
+    .requirements .field {
+      padding-bottom: 25px;
+    }
+  
+    .requirements .field textarea {
+      height: 160px;
+    }
+  
+    .requirements .field input,
+    .requirements .field textarea {
+      border-radius: 7px;
+      padding: 17px;
+      font-size: 2.2rem;
+    }
+  
+    .requirements .field p {
+      padding-bottom: 10px;
+      font-size: 1.3rem;
+    }
+  
+    .requirements .notice {
+      padding: 12px 0 17px;
+      font-size: 25px;
+    }
+  
+    .requirements .btn-send {
+      margin-top: 17px;
+      border-radius: 8px;
+      padding: 20px 0;
+      font-size: 2.5rem;
+    }
+  }
+
+@media (min-width: 1400px) and (max-width: 1849px) {
+  .article {
+    width: 400px;
+  }
+
+  .article .art-title {
+    padding-bottom: 13px;
+    font-size: 2.8rem;
+  }
+
+  .article .art-text {
+    font-size: 2rem;
+  }
+
+  .form {
+    width: 462px;
+  }
+
+  .requirements {
+    padding: 28px 28px 33px 20px;
+  }
+
+  .requirements .field {
+    padding-bottom: 20px;
+  }
+
+  .requirements .field textarea {
+    height: 140px;
+  }
+
+  .requirements .field input,
+  .requirements .field textarea {
+    border-radius: 6px;
+    padding: 14px;
+    font-size: 1.8rem;
+  }
+
+  .requirements .field p {
+    padding-bottom: 8px;
+    font-size: 1rem;
+  }
+
+  .requirements .notice {
+    padding: 10px 0 13px;
+    font-size: 20px;
+  }
+
+  .requirements .btn-send {
+    margin-top: 13px;
+    border-radius: 6px;
+    padding: 20px 0;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 675px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
