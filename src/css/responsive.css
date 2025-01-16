@@ -42,7 +42,7 @@
   
     .requirements .notice {
       padding: 12px 0 17px;
-      font-size: 25px;
+      font-size: 2.5rem;
     }
   
     .requirements .btn-send {
@@ -97,7 +97,7 @@
 
   .requirements .notice {
     padding: 10px 0 13px;
-    font-size: 20px;
+    font-size: 2rem;
   }
 
   .requirements .btn-send {
@@ -113,4 +113,3 @@
     flex-direction: column;
   }
 }
-
