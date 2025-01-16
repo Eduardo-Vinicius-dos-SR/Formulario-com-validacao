@@ -50,7 +50,8 @@ body {
   padding-bottom: 15px;
 }
 
-.requirements .field:nth-child(4) {
+.requirements .field:nth-child(4),
+.requirements .field:nth-child(4) p {
   padding-bottom: 0;
 }
 
@@ -94,7 +95,7 @@ body {
 
 .requirements .notice {
   padding: 7px 0 10px;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
@@ -129,6 +130,6 @@ body {
   display: block;
 }
 
-.requirements .btn-send.empty {
-  margin: 0;
+.requirements .btn-send.incomplete {
+  margin-top: 0;
 }

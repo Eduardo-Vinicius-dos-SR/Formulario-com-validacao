@@ -3,8 +3,8 @@ const inputFields = document.querySelectorAll(".field input, .field textarea");
 const btnSend = document.querySelector(".btn-send");
 
 btnSend.addEventListener("click", () => {
-
   validateFields();
+  updateButtonState();
   validateAndSubmitForm();
 });
 
@@ -17,6 +17,14 @@ function validateFields() {
       field.classList.remove("empty");
     }
   });
+}
+
+function updateButtonState() {
+  if (fields[3].classList.contains("empty")) {
+    btnSend.classList.add("incomplete");
+  } else {
+    btnSend.classList.remove("incomplete");
+  }
 }
 
 function validateAndSubmitForm() {
